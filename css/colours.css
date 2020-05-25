@@ -1,0 +1,123 @@
+.all{
+    
+    color: #A1CD32;
+    color: rgb(91, 169, 36);
+    color: #313131;
+
+    color:#565825;
+    background-color: #423733;
+
+}
+/*Index page css*/
+.conZer {
+  position: relative;
+  text-align: center;
+
+}
+
+.txtonimg {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.slimg {
+
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.mySlides {
+  width: 80%;
+  height: 500px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.60;
+}
+
+.sltopimg {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sbotimg {
+  opacity: 0.60;
+}
+
+.sbotimg:hover {
+  opacity: 1;
+}
+
+.sliderbottom {
+  margin-top: 16px !important;
+  margin-bottom: 16px !important;
+}
+
+.sliderbottom::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.index {
+  background-color: #423733 !important;
+  color: #A1CD32!important;
+}
+
+.admin{
+    background-color: #423733 !important;
+    color: #A1CD32;
+}
+.jumbotron{
+    background-color: #423733 !important;
+    text-align: center;
+}
+
+/*Amin.php*/
+.r {
+    padding-left: 30px;
+  }
+
+  .r ::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .c {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  @media (max-width: 800px) {
+  .e input {
+    margin: 10px 0;
+  }
+
+  .e {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+/*tables*/
+.vview {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tthd {
+    border: 1px solid #565825;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .odd:nth-child(even) {
+    background-color: #565825;
+  }

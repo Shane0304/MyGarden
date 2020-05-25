@@ -1,0 +1,283 @@
+/* Styles for the webpage */
+
+/* Navigation */
+.nav-colour{
+    background:#BC986A !important;  
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-decoration: none;
+  }
+  
+  /* hover on the icons at the bottom */
+  .fa:hover {
+    opacity: 0.5;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  /*linkedin*/
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  /*youtube*/
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  /*instagram*/
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+  /*Footer*/
+  .foott{
+      bottom: 0%;
+      width: 100%;
+      text-align: center;
+      background:#BC986A !important; 
+      
+  }
+
+  /* got tot the top Btn Colour */
+  .btn-colour{
+    background-color:#12C998!important;
+    color:black!important;
+  }
+
+  /* go to the top Btn */
+  #BtnTop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 1px; /* Place the button at the bottom of the page */
+  right: 1px; /*Send to the right of the page*/
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 5px; /* Some padding */
+  border-radius: 1px; /* Rounded corners */
+}
+
+/* Go to top Btn hover with mouse*/
+#BtnTop:hover {
+  background-color: #555; /* Hover colour */
+}
+
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 100px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 100px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/*Contact Us*/
+
+/*text area and boxes*/
+.conin{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/*The btn for submitting*/
+#Submit{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#Submit:hover {
+  background-color: #138bd1;
+}
+
+/*All the content for contact*/
+.con {
+  border-radius: 5px;
+  background-color: #423733 !important;
+  color: #A1CD32;
+  padding: 100px;
+  box-sizing: border-box;
+}
+
+/*Top of content page*/
+.contop{
+  background-color: #423733 !important;
+  color: #A1CD32;
+  text-align: center;
+}
+
+
+/*Home page styling*/
+.index {
+  background-color: #423733!important;
+  color: #A1CD32;
+}
+
+/*top of home page*/
+.index1{
+  text-align: center;
+  padding: 50px;
+}
+
+.caaaa{
+  width: 100%;
+  height: 100%;
+}
+
+.serv{
+  
+  width:100%; 
+  height:300px;
+  
+}
+
+/*Text over an image*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*Image*/
+.imgtrance{
+  width:100%; 
+  height:800px; 
+  opacity: 0.8; 
+  filter: alpha(opacity=50);
+}
+ /*services page*/
+ /*top Image*/
+.imgtranceserv{
+
+  display:inline; 
+}
+/*top*/
+.servtop{
+  background-color: #423733;
+  color: #A1CD32;
+}
+
+.servv {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+
+}
+.wrap {
+  display: flex;
+  background:		#503F2D;
+  padding: 1rem 1rem 1rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.wrap:hover {
+  background: linear-gradient(135deg,#565825 0%,#697046 100%);
+
+}
+
+.ico-wrap {
+  margin: auto;
+}
+
+.mbr-iconfont {
+  font-size: 4.5rem !important;
+  color: #313131;
+  margin: 1rem;
+  padding-right: 1rem;
+}
+.vcenter {
+  margin: auto;
+}
+
+.mbr-section-title3 {
+  text-align: left;
+}
+
+.display-5 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1.4rem;
+}
+.mbr-bold {
+  font-weight: 700;
+}
+
+.display-6 {
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 1re;
+}
+
+.producPar{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 25px;
+  padding-left: 3rem;
+}
+
+.prodHe{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  padding-left: 3rem;
+}
+
+/*icon size on products page*/
+
+.iconsproc{
+  width: 20px;
+  height: 25px;
+}
+
+
